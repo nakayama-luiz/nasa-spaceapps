@@ -1,0 +1,53 @@
+{
+    "type": "FeatureCollection",
+    "metadata": {
+        "generated": 1696752758000,
+        "url": "https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&alertlevel=red",
+        "title": "USGS Earthquakes",
+        "status": 200,
+        "api": "1.14.0",
+        "count": 1
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "mag": 6.8,
+                "place": "Al Haouz, Morocco",
+                "time": 1694211061432,
+                "updated": 1696453360470,
+                "tz": null,
+                "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000kufc",
+                "detail": "https://earthquake.usgs.gov/fdsnws/event/1/query?eventid=us7000kufc&format=geojson",
+                "felt": 1289,
+                "cdi": 7.1,
+                "mmi": 8.478,
+                "alert": "red",
+                "status": "reviewed",
+                "tsunami": 0,
+                "sig": 2710,
+                "net": "us",
+                "code": "7000kufc",
+                "ids": ",us7000kufc,usauto7000kufc,pt23251003,at00s0otmd,",
+                "sources": ",us,usauto,pt,at,",
+                "types": ",dyfi,earthquake-name,finite-fault,general-text,ground-failure,internal-moment-tensor,internal-origin,losspager,moment-tensor,origin,phase-data,shakemap,",
+                "nst": 393,
+                "dmin": 0.991,
+                "rms": 0.67,
+                "gap": 22,
+                "magType": "mww",
+                "type": "earthquake",
+                "title": "M 6.8 - Al Haouz, Morocco"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -8.3887,
+                    31.0549,
+                    19
+                ]
+            },
+            "id": "us7000kufc"
+        }
+    ]
+}
